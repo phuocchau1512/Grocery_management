@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Nội dung chính -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Ảnh món ăn -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/imgProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/nh_m_n_n"
+                    android:src="@drawable/baseline_image_24" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Nút chọn ảnh -->
+            <Button
+                android:id="@+id/btnPickImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectImage"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/login_button_selector"/>
+
+            <!-- Tên món ăn -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_border"
+                app:hintEnabled="false"
+                android:padding="@dimen/_10dp">
+
+                <EditText
+                    android:id="@+id/edtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:inputType="text"
+                    android:hint="@string/tenMonAn"
+                    android:textSize="18sp"
+                    tools:ignore="Autofill"
+                    android:background="@android:color/transparent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Thời gian -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_border"
+                app:hintEnabled="false"
+                android:padding="@dimen/_10dp">
+
+                <EditText
+                    android:id="@+id/edtTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:inputType="number"
+                    android:hint="@string/cook_time"
+                    android:textSize="18sp"
+                    tools:ignore="Autofill"
+                    android:background="@android:color/transparent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Nguyên liệu -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                app:hintEnabled="false"
+                android:padding="@dimen/_10dp">
+
+                <EditText
+                    android:id="@+id/edtIngredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:hint="@string/nguyenLieu"
+                    android:minLines="4"
+                    android:gravity="top"
+                    android:textSize="18sp"
+                    tools:ignore="Autofill"
+                    android:background="@android:color/transparent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Hướng dẫn -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border"
+                app:hintEnabled="false"
+                android:padding="@dimen/_10dp">
+
+                <EditText
+                    android:id="@+id/edtInstructions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="textMultiLine"
+                    android:hint="@string/huongDan"
+                    android:minLines="6"
+                    android:gravity="top"
+                    android:textSize="18sp"
+                    tools:ignore="Autofill"
+                    android:background="@android:color/transparent"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Nút lưu -->
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saveRecipes"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/white"
+                android:background="@drawable/login_button_selector"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- ProgressBar nằm giữa màn hình -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progressbar" />
+
+</RelativeLayout>

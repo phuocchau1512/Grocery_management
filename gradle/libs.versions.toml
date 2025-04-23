@@ -1,0 +1,81 @@
+[versions]
+activityVersion = "1.7.2"
+agp = "8.6.0"
+appcompatVersion = "1.6.1"
+barcodeScanning = "17.2.0"
+cameraCamera2 = "1.1.0"
+cameraCore = "1.1.0"
+cameraLifecycle = "1.1.0"
+cameraView = "1.1.0"
+core = "3.2.0"
+coreVersion = "4.6.2"
+datastorePreferences = "1.0.0"
+fragmentKtx = "1.8.6"
+glide = "4.16.0"
+gson = "2.10.1"
+hiltAndroid = "2.40.5"
+hiltAndroidCompiler = "2.50"
+imagepicker = "2.3.22"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesAndroid = "1.7.3"
+kotlinxSerializationJson = "1.6.0"
+kotlinxSerializationJsonVersion = "1.5.1"
+lifecycleViewmodelKtx = "2.6.2"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+materialVersion = "1.6.1"
+retrofit = "2.9.0"
+zxingAndroidEmbedded = "4.3.0"
+volley = "1.2.1"
+navigationFragmentKtx = "2.8.9"
+navigationUiKtx = "2.8.9"
+
+[libraries]
+androidx-activity-v172 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+androidx-appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcodeScanning" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycle" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraView" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+core = { module = "com.google.zxing:core", version.ref = "core" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+html = { module = "io.noties.markwon:html", version.ref = "coreVersion" }
+imagepicker = { module = "com.github.Drjacky:ImagePicker", version.ref = "imagepicker" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+kotlinx-serialization-json-v151 = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
+markwon-core = { module = "io.noties.markwon:core", version.ref = "coreVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v161 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

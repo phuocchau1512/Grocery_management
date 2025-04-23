@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="app_name">Grocery Management</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email">Email Id</string>
+    <string name="passowrd">Nhập mật khẩu</string>
+    <string name="second_passowrd">Nhập lại mật khẩu</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Tạo tài khoản mới ở đây</string>
+    <string name="fullName">Nhập tên người dùng</string>
+    <string name="Email">Nhập Email của bạn</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="signUp">Đăng ký</string>
+    <string name="already_user">Đã có tài khoản. Đăng nhập.</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="qu_t_m_qr">Quét mã QR</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="login_screen">Màn hình đăng nhập</string>
+    <string name="thongTinSanPham">Nhập thông tin sản phẩm</string>
+    <string name="project_name">Tên sản phẩm</string>
+    <string name="MoTaSp">Mô tả sản phẩm</string>
+    <string name="hint_product_name">Nhập tên sản phẩm</string>
+    <string name="barcode">Mã vạch</string>
+    <string name="enter_barcode">Nhập mã vạch</string>
+    <string name="enter_des">Nhập mô tả sản phẩm</string>
+    <string name="soLuongText">Số lượng :</string>
+    <string name="increase_nums">increase nums</string>
+    <string name="decrease_nums">decrease nums</string>
+    <string name="_1">1</string>
+    <string name="l_u">Lưu</string>
+    <string name="img_picker">Chọn ảnh sản phẩm</string>
+    <string name="image_project">hình ảnh sản phẩm</string>
+    <string name="product_name">Product Name</string>
+    <string name="hinh_anh_san_pham">hinh anh san pham</string>
+    <string name="gia_tien">Giá tiền:</string>
+    <string name="_15">15</string>
+    <string name="tien">$tien</string>
+    <string name="khong_co_sp_trong_kho">Không có sản phẩm nào trong kho</string>
+    <string name="so_luong">số lượng</string>
+    <string name="nhap_ghi_chu">Nhập ghi chú cho sản phẩm</string>
+    <string name="note">Ghi chú: %s</string>
+    <string name="edit_product">Chỉnh sửa sản phẩm</string>
+    <string name="themSpmoi">Thêm Sản Phẩm mới</string>
+    <string name="so_sp_can_mua">Số sản phẩm cần mua: </string>
+    <string name="ngay_tao">Ngày tạo: </string>
+    <string name="yeu_thich">Yêu thích</string>
+    <string name="empty_shopping_list">Chưa có danh sách mua sắm</string>
+    <string name="add">Thêm</string>
+    <string name="taoDsmoi">Tạo danh sach mới</string>
+    <string name="hint_ds_moi">Nhập tên danh sách mới</string>
+    <string name="nh_d_u_mua">Đánh dấu đã mua</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="notify_personal_recipes">Bạn chưa có tạo công thức nào cả!</string>
+    <string name="nguyenLieu">Nguyên Liệu</string>
+    <string name="huongDan">Hướng Dẫn</string>
+    <string name="tenMonAn">Tên món ăn</string>
+    <string name="saveRecipes">Lưu công thức</string>
+    <string name="cook_time">Thời gian nấu</string>
+    <string name="nh_m_n_n">Ảnh món ăn</string>
+    <string name="selectImage">Chọn ảnh</string>
+    <string name="kh_ng_c_c_ng_th_c_n_o_nh_v_y_c">Không có công thức nào như vậy cả</string>
+    <string name="search">Search</string>
+    <string name="search_text">Tìm kiếm...</string>
+    <string name="back">Back</string>
+    <string name="no_recipe">Không có công thức mà bạn tìm kiếm</string>
+    <string name="suggest">suggest</string>
+
+</resources>
